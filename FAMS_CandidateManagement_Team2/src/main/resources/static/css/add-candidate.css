@@ -1,0 +1,83 @@
+ /* input[type=date]::-webkit-clear-button, */
+
+/* blue cross */
+
+/* input[type=date]::-webkit-inner-spin-button, */
+
+/* up */
+
+/* input[type=date]::-webkit-outer-spin-button, */
+
+/* down */
+
+/* input[type=date]::-webkit-calendar-picker-indicator */ 
+/* datepicker*/
+
+/* {
+    display: none;
+} */
+
+table {
+    border: 1px solid black;
+    width: 98%;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+/* 
+td:nth-child(odd) {
+    background-color: silver;
+} */
+
+tr:nth-child(2):nth-child(even) {
+    background-color: lightgrey;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+input[type=text] {
+    width: 100%;
+    border: none;
+}
+
+input[type=date] {
+    width: 85%;
+    float: left;
+    border: none;
+    /* border-color: red; */
+}
+
+input[type=month] {
+    width: 85%;
+    border: none;
+}
+
+input[type=email] {
+    width: 100%;
+    border: none;
+}
+
+.form-control,
+.dropdown,
+.dropdown-menu {
+    font-size: 25px;
+    width: 100%;
+}
+
+.content-add-candidate {
+    padding: 5px;
+}
